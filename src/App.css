@@ -1,0 +1,10 @@
+.nav-link {
+  color: white;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+.nav-link:hover {
+  background-color: rgba(210, 155, 67);
+  border-radius: 6px;
+}
