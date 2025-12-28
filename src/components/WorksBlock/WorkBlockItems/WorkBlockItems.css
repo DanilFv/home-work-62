@@ -1,0 +1,58 @@
+.work-card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(210, 155, 67, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.8s ease-out;
+  transition: transform 0.3s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  border-color: rgba(210, 155, 67, 0.6);
+}
+
+
+.work-image-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.work-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.work-overlay {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(210, 155, 67, 0.3);
+}
+
+.work-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.work-info h3 {
+  font-size: 20px;
+  color: rgb(210, 155, 67);
+  margin-bottom: 5px;
+}
+
+.work-info p {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.8;
+  margin: 0;
+}

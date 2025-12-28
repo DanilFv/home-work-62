@@ -20,7 +20,7 @@ const ToolBar = () => {
                               href=""
                               className="nav-link text-white"
                           >
-                              About me
+                              Works
                           </a>
                       </li>
                       <li className='nav-item text-white'>
