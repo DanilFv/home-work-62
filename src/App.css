@@ -8,3 +8,27 @@
   background-color: rgba(210, 155, 67);
   border-radius: 6px;
 }
+
+body {
+  background: linear-gradient(
+  135deg,
+  rgb(210, 155, 67) 0%,
+  rgb(160, 115, 45) 45%,
+  #000 100%);
+}
+
+.navbar {
+  background: linear-gradient(
+    to right,
+    rgb(160, 115, 45),
+    #000
+  );
+}
+
+
+.navbar-brand img {
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.6));
+}
+
+
+
