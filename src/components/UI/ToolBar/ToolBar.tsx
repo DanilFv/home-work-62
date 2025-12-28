@@ -1,27 +1,31 @@
 import Logo from '../../Logo/Logo.tsx';
 
+import {NavLink} from 'react-router-dom';
+
 const ToolBar = () => {
     return (
          <nav className='navbar navbar-expand-lg navbar-light bg-black'>
           <div className='container'>
-            <Logo className='navbar-brand' />
+              <NavLink to='/'>
+                  <Logo className='navbar-brand' />
+              </NavLink>
               <div className='collapse navbar-collapse'>
                   <ul className='navbar-nav ms-auto'>
                       <li className='nav-item'>
-                          <a
-                              href="#"
+                          <NavLink
+                              to='/'
                               className="nav-link text-white"
                           >
                               Home
-                          </a>
+                          </NavLink>
                       </li>
                       <li className='nav-item'>
-                          <a
-                              href=""
+                           <NavLink
+                              to='/works'
                               className="nav-link text-white"
-                          >
-                              Works
-                          </a>
+                           >
+                                Works
+                          </NavLink>
                       </li>
                       <li className='nav-item text-white'>
                           <a

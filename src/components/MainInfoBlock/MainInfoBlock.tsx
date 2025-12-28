@@ -1,3 +1,4 @@
+import './MainInfoBlock.tsx.css';
 
 const MainInfoBlock = () => {
     return (
