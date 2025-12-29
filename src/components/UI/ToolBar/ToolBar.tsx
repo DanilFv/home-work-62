@@ -28,12 +28,12 @@ const ToolBar = () => {
                           </NavLink>
                       </li>
                       <li className='nav-item text-white'>
-                          <a
-                              href="#"
+                          <NavLink
+                              to='/contacts'
                               className="nav-link text-white"
                           >
                               Contacts
-                          </a>
+                          </NavLink>
                       </li>
                   </ul>
               </div>

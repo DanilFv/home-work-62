@@ -1,0 +1,46 @@
+.contacts-section {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+
+  animation: fadeIn 0.8s ease-out;
+}
+
+.contacts-card {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.contacts-title {
+  text-align: center;
+  font-size: 28px;
+  color: #d6a354;
+  margin-bottom: 10px;
+}
+
+.title-underline {
+  width: 60px;
+  height: 3px;
+  background: #d6a354;
+  margin: 0 auto 25px;
+  border-radius: 2px;
+}
+
+.contacts-text {
+  text-align: center;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

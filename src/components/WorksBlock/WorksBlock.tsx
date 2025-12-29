@@ -15,7 +15,7 @@ const WorksBlock: React.FC<Props> = ({works}) => {
 
             <div className="works-grid">
                 {works.map((work: IWorks) => (
-                    <WorkBlockItems works={work} />
+                    <WorkBlockItems key={work.title} works={work} />
                 ))}
             </div>
         </div>

@@ -1,0 +1,23 @@
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(214, 163, 84, 0.1);
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+
+.contact-item span {
+  color: #d6a354;
+  font-weight: 500;
+}
+
+.contact-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+  color: #d6a354;
+}

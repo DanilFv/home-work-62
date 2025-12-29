@@ -8,13 +8,11 @@ interface Props {
 const Logo: React.FC<Props> = ({className}) => {
     return (
        <div className={className}>
-           <a href="">
-               <img
-                   style={{ width: '50px'}}
-                   src={logo}
-                   alt="HomePage"
-               />
-           </a>
+           <img
+               style={{ width: '50px'}}
+               src={logo}
+               alt="HomePage"
+           />
        </div>
     );
 };
